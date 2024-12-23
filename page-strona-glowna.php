@@ -6,7 +6,15 @@
                 Hero
             </section>
             <section class="services">
-                Services
+                <h2>Services</h2>
+                <div class="container">
+                    <div class="services-item">
+                    </div>
+                    <div class="services-item">
+                    </div>
+                    <div class="services-item">
+                    </div>
+                </div>
             </section>
             <section class="home-blog">
                 <div class="container">
