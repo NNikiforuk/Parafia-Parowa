@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'lato-bold';
+    src: url('/wp-content/themes/july2024/assets/fonts/lato/Lato-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
 .top-bar{
     background: blue;
     height: 70px;
