@@ -813,25 +813,21 @@ footer .container .row{
 
 /************** INNER PAGES *****************/
 
-/* Blog, Archive, Search */
-.blog main .container,
-.archive main .container{
+/* Blog */
+.blog main .container{
     display: flex;
 }
-.blog .blog-items,
-.archive .archive-items{
+.blog .blog-items{
     padding: 0 15px 0 0;
     flex: 1;
 }
-.blog .blog-items h2,
-.archive .blog-items h2{
+.blog .blog-items h2 {
     margin-top: 0;
 }
 .blog article{
     margin-bottom: 20px;
 }
-.blog aside,
-.archive aside{
+.blog aside {
     padding: 25px;
     background: var( --wpdevs-gray2 );
     height: 100%;
@@ -839,24 +835,13 @@ footer .container .row{
 }
 @media screen and (max-width: 991px ) {
     .blog aside,
-    .archive aside,
-    .blog .blog-items,
-    .archive .archive-items{
+    .blog .blog-items {
         min-width: 100%;
     }
 }
-.blog h1,
-.archive h1{
+.blog h1 {
     text-align: center;
     margin-top: 0;
-}
-.archive-description{
-    text-align: center;
-    max-width: 50%;
-    margin: 0 auto 30px auto;
-}
-.archive-description p{
-    font-size: 85%;
 }
 .home #primary > #main{
     padding: 0;
@@ -885,9 +870,7 @@ article{
     display: inline-block;
     width: 100%;
 }
-article.post h1,
-.search h1,
-.archive h1{
+article.post h1{
     font-size: 50px;
     line-height: 4.0rem;
     margin-bottom: 15px;
@@ -906,87 +889,34 @@ article.post h4,
 article.post h5{
     margin-bottom: 0;
 }
-.searchform input[type="text"]{
-    padding: 7px 10px;
-    border: 1px solid #C6C6C6;
-}
-.searchform input[type="submit"]{
-    padding: 11px 10px;
-    background: #000000;
-    color: #FFFFFF;
-    border: none;
-}
-.searchform div{
-    display: flex;
-}
-.searchform input[type=text]{
-    max-width: 70%;
-}
-.searchform input[type=submit]{
-    max-width: 70%;
-}
-@media (max-width: 991px) {
-    .blog .container,
-    .archive .container{
-        flex-wrap: wrap;
-    }
-}
 
-/* Comments */
-#commentform input[type="submit"]{
-    color: #FFFFFF;
-    padding: 15px 25px;
-    display: inline-block;
-    background: var( --wpdevs-light-blue );
-    margin: 20px 0 0;
-    border: none;
-}
-#commentform input[type="submit"]:hover{
-    background: var( --wpdevs-yellow );
-    transition: .5s all;
-}
-#commentform label{
-    display: block;
-}
-#commentform label[for="wp-comment-cookies-consent"]{
-    display: inline;
-    margin-left: 5px;
-}
-#commentform input[type="text"],
-#commentform textarea{
-    padding: 7px 10px;
-    border: 1px solid #C6C6C6;
-    width: 100%;
-}
-.comments-area #reply-title{
-    border-top: 1px solid #ebebeb;
-    padding: 20px 0 0;
-}
+/* Screen readers. */
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+};
 
-/* Pagination */
-.wpdevs-pagination{
-    display: flex;
-    justify-content: space-between;
-}
-.pages{
-    margin-top: 20px;
-}
-.nav-links{
-    margin-top: 40px;
-}
-.nav-links .page-numbers{
-    padding: 10px 15px;
-    display: inline-block;
-    background: var( --wpdevs-gray3 );
-}
-.nav-links .current{
-    background-color: #000000;
-    color: #ffffff;
-}
-.nav-links .next,
-.nav-links .prev{
-    background-color: transparent;
-}
-.nav-links .prev{
-    padding-left: 0;
+.screen-reader-text:focus {
+  background-color: #eee;
+  clip: auto !important;
+  clip-path: none;
+  color: #444;
+  display: block;
+  font-size: 1em;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
 }
