@@ -11,16 +11,6 @@
     <?php wp_body_open(); ?>
     <div id="page" class="site">
         <header>
-            <section class="top-bar">
-                <div class="container">
-                    <div class="logo">
-                        Logo
-                    </div>
-                    <div class="searchbox">
-                        Search
-                    </div>
-                </div>
-            </section>
             <section class="menu-area">
                 <div class="container">
                     <nav class="main-menu">
