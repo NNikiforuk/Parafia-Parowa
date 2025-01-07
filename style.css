@@ -421,20 +421,17 @@ img {
 	height: auto;
 }
 
-.container {
+.container, .all-news {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	max-width: 500px;
+	padding: var(--wpdevs-light-padding);
 }
-@media (max-width: 575px) {
-	.container {
-		padding: var(--wpdevs-light-padding);
-	}
-}
-@media (min-width: 576px) {
-	.container {
-		padding-right: 15px;
-		padding-left: 15px;
+
+@media (min-width: 600px) {
+	.container, .all-news {
+		max-width: 600px;
 	}
 }
 
@@ -444,11 +441,13 @@ img {
 		line-height: 32px;
 		letter-spacing: 4px;
 	}
-}
 
-@media (min-width: 1200px) {
-	.container {
-		max-width: 1140px;
+	h2 {
+		margin-bottom: 40px;
+	}
+
+	.container, .all-news {
+		max-width: 900px;
 	}
 }
 
@@ -592,7 +591,7 @@ img {
 		color: var(--beige);
 		font-weight: bold;
 		padding: 1em;
-		transition: .6s;
+		transition: 0.6s;
 	}
 
 	.main-menu ul li a:hover {
@@ -660,11 +659,11 @@ img {
 }
 
 /* LATEST NEWS */
-
 .home .home-blog {
 	background-color: var(--yellow);
 	padding: var(--wpdevs-big-padding);
 }
+
 .home .home-blog h2 {
 	color: var(--brown-light);
 }
@@ -677,38 +676,61 @@ img {
 	text-align: center;
 	gap: 2rem;
 }
+
+.home .home-blog .all-news {
+	display: block;
+	text-align: end;
+	width: 100%;
+}
+
+.home .home-blog .all-news a {
+	color: var(--brown);
+	font-size: 14px;
+	padding: 2em 0 0 0;
+}
+
 .home .home-blog .latest-news h3 {
 	color: var(--brown-light);
 }
+
 .home .home-blog .latest-news {
+	width: 100%;
+	max-width: 300px;
 	background-color: var(--white);
-	padding: 1em;
+	padding: 1.5em 1em 2em 1em;
 	border-radius: 8px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	flex-direction: column;
-	gap: 1rem;
 	-webkit-box-shadow: 0px 0px 4px -1px rgb(106, 107, 122, 0.5);
 	-moz-box-shadow: 0px 0px 4px -1px rgba(106, 107, 122, 0.5);
 	box-shadow: 0px 0px 4px -1px rgba(66, 106, 107, 122, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1em;
 }
 
 .home .home-blog .latest-news a {
 	color: var(--white);
 	font-weight: normal;
 	text-decoration: none;
-	background-color: var(--brown-light2);
+	background-color: var(--red);
 	padding: 10px 20px;
 	border-radius: 15px;
 	font-size: 14px;
-	margin-bottom: 1em;
 }
 
+@media (min-width: 1024px) {
+	.home .home-blog .container {
+		flex-direction: row;
+	}
+}
+
+/* MASSES */
 .home .masses {
 	background-color: var(--brown-light);
 	padding: var(--wpdevs-big-padding);
 	color: var(--beige);
+	text-align: center;
 }
 
 .home .masses .container p span {
