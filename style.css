@@ -429,19 +429,8 @@ img {
 }
 @media (min-width: 576px) {
 	.container {
-		max-width: 540px;
 		padding-right: 15px;
 		padding-left: 15px;
-	}
-}
-@media (min-width: 768px) {
-	.container {
-		max-width: 720px;
-	}
-}
-@media (min-width: 992px) {
-	.container {
-		max-width: 960px;
 	}
 }
 @media (min-width: 1200px) {
@@ -541,7 +530,7 @@ img {
 	transition: all 0.8s cubic-bezier(0.4, 0, 0.2, 1);
 	border-radius: 5px;
 }
-@media (max-width: 767px) {
+@media (max-width: 1023px) {
 	.menu-icon,
 	.check-button {
 		display: block;
@@ -554,7 +543,7 @@ img {
 	}
 	.main-menu ul {
 		position: absolute;
-		width: 100%;
+		width: 100vw;
 		left: -999px;
 		text-align: left;
 		transition: all cubic-bezier(0.79, 0.14, 0.15, 0.86) 0.5s;
