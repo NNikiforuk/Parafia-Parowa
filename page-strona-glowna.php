@@ -10,7 +10,7 @@
                     </div>
                 </div>
             </section>
-            <section class="home-blog">
+            <section class="home-blog" id="aktualnosci">
                 <h2>Aktualności</h2>
                 <div class="container">
                     <?php
@@ -38,14 +38,14 @@
                 </div>
     </div>
     </section>
-    <section class="masses">
+    <section class="masses" id="msze">
         <h2>Msze święte</h2>
         <div class="container">
             <p><span>W tygodniu:</span> 18:00</p>
             <p><span>W niedziele:</span> 08:00 i 10:00</p>
         </div>
     </section>
-    <section class="about">
+    <section class="about" id="o-parafii">
         <h2>O parafii</h2>
         <div class="container">
             <p>Kościół w Parowej znajduje się w centralnej części wsi, przy głównej drodze, po jej zachodniej stronie. Jego historia sięga prawdopodobnie 1498 roku. Przebudowany został w drugiej połowie XVIII wieku, natomiast w 1901 r. zyskał wieżę.</p>
@@ -58,7 +58,7 @@
             </div>
         </div>
     </section>
-    <section class="renovation">
+    <section class="renovation" id="remont">
         <h2>Remont wieży kościelnej</h2>
         <div class="container">
             <div class="accordion">
@@ -134,10 +134,10 @@
         </div>
 </div>
 </section>
-<section class="contact">
+<section class="contact" id="kontakt">
     <h2>Kontakt</h2>
     <div class="container">
-        <p class="center">Rzymskokatolicka parafia pod wezwaniem św. Antoniego z Padwy w Parowej</p>
+        <p>Rzymskokatolicka parafia pod wezwaniem św. Antoniego z Padwy w Parowej</p>
         <div class="contact-details">
             <div class="contact-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/person.svg" alt="ikona osoby" height="auto" width="22">
@@ -147,17 +147,17 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/location.svg" alt="ikona pinu" height="auto" width="22">
                 <p>Parowa 106, 59-724 Parowa</p>
             </div>
-            <div class="contact-item">
+            <div class="contact-item pointer">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/phone.svg" alt="ikona telefonu" height="auto" width="22">
-                <p>(+48) 75 732 1886</p>
+                <p><a href="tel:+48757321886">(+48) 75 732 1886</a></p>
             </div>
             <div class="contact-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail.svg" alt="ikona poczty" height="auto" width="22">
-                <p>parafiaparowa@gmail.com</p>
+                <p><a href="mailto:parafiaparowa@gmail.com">parafiaparowa@gmail.com</a></p>
             </div>
             <div class="contact-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/fb.svg" alt="ikona facebook" height="auto" width="22">
-                <p>Odwiedź nas na Facebook</p>
+                <p><a href="https://www.facebook.com/p/Parafia-%C5%9Bw-Antoniego-z-Padwy-w-Parowej-100066737314714" target="_blank">Odwiedź nas na Facebook</a></p>
             </div>
         </div>
         <p class="alert">W sprawach pilnych prosimy o kontakt telefoniczny lub wizytę po mszy świętej wieczornej lub na plebanii</p>

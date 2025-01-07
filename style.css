@@ -25,6 +25,7 @@
 html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
+	scroll-behavior: smooth;
 }
 
 /* Sections
@@ -409,19 +410,50 @@ p {
 	padding: 0;
 }
 
-a {
-}
-
-/* a:hover,
-a:visited{
-    color: #6d6d6d;
-} */
 img {
 	max-width: 100%;
 	height: auto;
 }
 
-.container, .all-news {
+.pointer {
+	cursor: pointer;
+	transition: 0.6s;
+}
+
+.pointer:hover {
+	color: var(--red);
+}
+
+/* GALLERY */
+.image-set {
+	padding-top: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	margin: 0 auto;
+	row-gap: 1em;
+	column-gap: 1em;
+}
+
+.image-set .example-image-link {
+	margin: 0 auto;
+}
+
+.image-set .example-image {
+	height: auto;
+	width: 60px;
+}
+
+.home .renovation .image-set {
+	grid-template-columns: repeat(8, 1fr);
+}
+
+.home .renovation .image-set .example-image {
+	height: auto;
+	width: 40px;
+}
+
+.container,
+.all-news {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
@@ -430,7 +462,16 @@ img {
 }
 
 @media (min-width: 600px) {
-	.container, .all-news {
+	.image-set .example-image {
+		width: 100px;
+	}
+
+	.home .renovation .image-set .example-image {
+		width: 80px;
+	}
+
+	.container,
+	.all-news {
 		max-width: 600px;
 	}
 }
@@ -446,7 +487,12 @@ img {
 		margin-bottom: 40px;
 	}
 
-	.container, .all-news {
+	.image-set .example-image {
+		width: 200px;
+	}
+
+	.container,
+	.all-news {
 		max-width: 900px;
 	}
 }
@@ -689,6 +735,10 @@ img {
 	padding: 2em 0 0 0;
 }
 
+.home .home-blog .all-news a:hover {
+	color: var(--red);
+}
+
 .home .home-blog .latest-news h3 {
 	color: var(--brown-light);
 }
@@ -717,6 +767,11 @@ img {
 	padding: 10px 20px;
 	border-radius: 15px;
 	font-size: 14px;
+	transition: 0.6s;
+}
+
+.home .home-blog .latest-news a:hover {
+	background-color: var(--black);
 }
 
 @media (min-width: 1024px) {
@@ -753,20 +808,13 @@ img {
 	padding-top: 2em;
 }
 
-.home .about .image-set {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	gap: 1rem;
-}
-
 /* RENOVATION */
 .home .renovation {
 	background-color: var(--orange);
 	padding: var(--wpdevs-big-padding);
 	color: var(--brown);
 }
+
 .home .renovation .bank-account {
 	display: flex;
 	flex-direction: column;
@@ -776,22 +824,25 @@ img {
 	margin-top: 2em;
 	text-align: justify;
 }
+
 .home .renovation .bank-details {
 	text-align: center;
 	padding: 2em;
-	color: var(--brown-light);
-	background-color: var(--red);
-	width: 100vw;
-	color: var(--beige);
+	color: var(--red);
+	font-weight: bold;
+	max-width: 400px;
 }
+
 .home .renovation .bank-details .padding-bottom {
 	padding-bottom: 1em;
 }
+
 .home .renovation .bank-details p {
 	line-height: 20px;
 }
+
 .home .renovation .bank-account button {
-	color: var(--brown);
+	color: var(--white);
 	text-decoration: none;
 	font-weight: bold;
 	padding: 10px 20px;
@@ -801,23 +852,17 @@ img {
 	margin-top: 1em;
 	cursor: pointer;
 	border: none;
-	background-color: var(--beige);
+	background-color: var(--red);
+	transition: 0.6s;
 }
 
-.home .renovation .image-set {
-	padding-top: 2em;
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-	margin: 0 auto;
-	row-gap: 1em;
-	column-gap: 1em;
+.home .renovation .bank-account button:hover {
+	background-color: var(--black);
 }
-.home .renovation .image-set .example-image-link {
+
+.home .renovation .accordion {
+	max-width: 300px;
 	margin: 0 auto;
-}
-.home .renovation .image-set .example-image {
-	height: auto;
-	width: 40px;
 }
 
 .home .renovation .accordion-toggle {
@@ -871,14 +916,24 @@ img {
 	padding: 1rem;
 	opacity: 1;
 }
+
+@media screen and (min-width: 1024px) {
+	.home .renovation .accordion {
+		max-width: 600px;
+	}
+
+	.home .renovation .accordion-title {
+		font-size: 15px;
+	}
+}
+
+/* CONTACT */
 .home .contact {
 	background-color: var(--yellow);
 	padding: var(--wpdevs-big-padding);
 	color: var(--brown);
 }
-.home .contact .center {
-	text-align: center;
-}
+
 .home .contact .contact-details {
 	padding-top: 2em;
 }
@@ -888,6 +943,17 @@ img {
 	padding: 5px 0;
 	gap: 5px;
 }
+
+.home .contact .contact-details .contact-item a {
+	text-decoration: none;
+	color: var(--brown);
+	transition: 0.6s;
+}
+
+.home .contact .contact-details .contact-item a:hover {
+	color: var(--red);
+}
+
 .home .contact .contact-details .contact-item img {
 	display: flex;
 	align-items: center;
@@ -899,6 +965,8 @@ img {
 	padding-top: 2em;
 	text-align: center;
 }
+
+/* FOOTER */
 footer {
 	background: var(--brown);
 	padding: 30px 0;
@@ -910,6 +978,7 @@ footer .container {
 footer .container a {
 	text-decoration: none;
 	color: var(--beige);
+	font-size: 12px;
 }
 
 /************** INNER PAGES *****************/
