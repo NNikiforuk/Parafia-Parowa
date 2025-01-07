@@ -3,12 +3,10 @@
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
             <section class="hero" style="background-image: url('http://localhost:8000/wp-content/uploads/2025/01/panorama-scaled.webp')">
-                <div class="overlay" style="min-height: 650px">
-                    <div class="container">
-                        <div class="hero-items">
-                            <h1>RZYMSKOKATOLICKA PARAFIA ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</h1>
-                            <p>Znajdź spokój i duchowe wsparcie w <span>Domu Bożym</span></p>
-                        </div>
+                <div class="overlay" style="min-height: 800px">
+                    <div class="hero-items">
+                        <h1>RZYMSKOKATOLICKA PARAFIA ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</h1>
+                        <p>Znajdź spokój i duchowe wsparcie w <span>Domu Bożym</span></p>
                     </div>
                 </div>
             </section>
