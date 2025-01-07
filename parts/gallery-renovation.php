@@ -1,6 +1,6 @@
 <?php
 
-$query = new WP_Query(array('post_type' => 'gallery', 'posts_per_page' => -1, 'p' => 74));
+$query = new WP_Query(array('post_type' => 'gallery', 'posts_per_page' => -1, 'p' => 78));
 
 if ($query->have_posts()) : ?>
     <?php while ($query->have_posts()) : $query->the_post(); ?>

@@ -47,8 +47,7 @@
                 <h2>O parafii</h2>
                 <div class="container">
                     <p>Kościół w Parowej znajduje się w centralnej części wsi, przy głównej drodze, po jej zachodniej stronie. Jego historia sięga prawdopodobnie 1498 roku. Przebudowany został w drugiej połowie XVIII wieku, natomiast w 1901 r. zyskał wieżę.</p>
-                    <p>
-                        Ochroną konserwatorską objęto wiele elementów tego zabytku, w tym: bryłę budynku, kształt i rodzaj pokrycia dachu, hełm wieży, układ i wystrój wnętrza, sklepienia i stropy, empory, kształt otworów okiennych i drzwiowych, oryginalna stolarka okienna i drzwiowa oraz układ i wystrój architektoniczny elewacji.</p>
+                    <p class="center-par">Ochroną konserwatorską objęto wiele elementów tego zabytku, w tym: bryłę budynku, kształt i rodzaj pokrycia dachu, hełm wieży, układ i wystrój wnętrza, sklepienia i stropy, empory, kształt otworów okiennych i drzwiowych, oryginalna stolarka okienna i drzwiowa oraz układ i wystrój architektoniczny elewacji.</p>
                     <p>W kościele znajdują się również wyjątkowe organy, wykonane w 1872 roku przez znanego na Śląsku budowniczego organów, G. Geisslera z Eilenburga.</p>
                     <div class="gallery">
                         <?php
@@ -65,25 +64,28 @@
                             <input type="checkbox" id="item1" class="accordion-toggle">
                             <label for="item1" class="accordion-title">2019</label>
                             <div class="accordion-content">
-                                <p>Wieża kościelna w Parowej jest najwyższą (62 m) i najciekawszą konstrukcją architektoniczną w regionie. Jej stan techniczny pogarsza się z roku na rok. W fatalnym stanie jest pokrycie, odeskowanie i więźba dachowa. W 2019 roku podjęto decyzję o jej remoncie. Przeprowadzono inwentaryzację oraz przygotowano projekt remontu. Ponadto uzyskano zgody konserwatora zabytków i inne niezbędne pozwolenia na prace remontowe.</p>
+                                <p>Wieża kościelna w Parowej jest najwyższą (62 m) i najciekawszą konstrukcją architektoniczną w regionie. Jej stan techniczny pogarsza się z roku na rok. W fatalnym stanie jest pokrycie, odeskowanie i więźba dachowa.</p>
+                                <p class="additional-padding">W 2019 roku podjęto decyzję o jej remoncie. Przeprowadzono inwentaryzację oraz przygotowano projekt remontu. Ponadto uzyskano zgody konserwatora zabytków i inne niezbędne pozwolenia na prace remontowe.</p>
                                 <p>Niestety, z powodu gwałtownie rosnących cen w budownictwie oraz długiego (około rocznego) czasu oczekiwania na rozpoczęcie prac przez ekipę remontową, nie udało się przystąpić do kolejnego etapu, jakim jest wykonanie remontu.</p>
-                                <p>Dla zobrazowania sytuacji: pierwszy kosztorys wynosił 150 tys. zł, a półtora roku później już 250 tys. zł.</p>
+                                <p class="additional-padding">Dla zobrazowania sytuacji: pierwszy kosztorys wynosił 150 tys. zł, a półtora roku później już 250 tys. zł.</p>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <input type="checkbox" id="item2" class="accordion-toggle">
                             <label for="item2" class="accordion-title">2022</label>
                             <div class="accordion-content">
-                                <p>Pod koniec 2022 roku sytuacja uległa zmianie. Zaktualizowany kosztorys wyniósł 210 tys. zł a czas oczekiwania na wejście firmy budowlanej zmalał do trzech miesięcy.</p>
-                                <p>Podtrzymane zostały wszystkie stosowne zgody. Firma budowlana “Tomczyk” była nadal zainteresowana wykonaniem remontu. Na koncie parafialnym znajdowało się ok. 60 tys. zł, zebrane podczas zbiórek.</p>
+                                <p>Pod koniec 2022 roku sytuacja uległa zmianie. Zaktualizowany kosztorys wyniósł 210 tys. zł, a czas oczekiwania na wejście firmy budowlanej zmalał do trzech miesięcy.</p>
+                                <p class="additional-padding">Podtrzymane zostały wszystkie stosowne zgody. Firma budowlana “Tomczyk” była nadal zainteresowana wykonaniem remontu. Na koncie parafialnym znajdowało się ok. 60 tys. zł, zebrane podczas zbiórek.</p>
                             </div>
                         </div>
                         <div class="accordion-item">
                             <input type="checkbox" id="item3" class="accordion-toggle">
                             <label for="item3" class="accordion-title">2023</label>
                             <div class="accordion-content">
-                                <p>W styczniu 2023 na koncie parafialnym znajdowała się kwota 110 tys. zł. Parafia w Parowej otrzymała deklarację wójta gminy Osiecznica Waldemara Nalazka o wspomożeniu dotacją w wysokości 15 tys. zł. W wyniku różnych działań takich jak kiermasze, zabawa karnawałowa, bezpośrednia zbiórka wśród mieszkańców, w marcu 2023 dysponowano kwotą ponad 190 tys. zł. Dzięki złożonemu wnioskowi do Urzędu Marszałkowskiego województwa dolnośląskiego (program finansujący remonty obiektów zabytkowych) uzyskaliśmy 60 tys zł. Kolejna dobra informacja spłynęła w maju z Ministerstwa Kultury i Dziedzictwa Narodowego. Otrzymaliśmy dodatkowe 85 tys zł.</p>
-                                <p>Łączna suma dotacji to aż 160 tys zł!</p>
+                                <p>W styczniu 2023 na koncie parafialnym znajdowała się kwota 110 tys. zł. Parafia w Parowej otrzymała deklarację wójta gminy Osiecznica Waldemara Nalazka o wspomożeniu dotacją w wysokości 15 tys. zł.</p>
+                                <p class="additional-padding">W wyniku różnych działań takich jak kiermasze, zabawa karnawałowa, bezpośrednia zbiórka wśród mieszkańców, w marcu 2023 dysponowano kwotą ponad 190 tys. zł.</p>
+                                <p>Dzięki złożonemu wnioskowi do Urzędu Marszałkowskiego województwa dolnośląskiego (program finansujący remonty obiektów zabytkowych) uzyskaliśmy 60 tys zł. Kolejna dobra informacja spłynęła w maju z Ministerstwa Kultury i Dziedzictwa Narodowego. Otrzymaliśmy dodatkowe 85 tys zł.</p>
+                                <p class="bold-center additional-padding">Łączna suma dotacji to aż 160 tys zł!</p>
                                 <p>Po zakończeniu prac i formalnym odbiorze przez konserwatora zabytków, firma p. Rafała Tomczyka wystawiła faktury na łączną kwotę 218 tys. zł. Zostały one opłacone z otrzymanych dotacji (160 tys. zł) oraz środków własnych naszej parafii (58 tys. zł). Po tej operacji na koncie parafialnym zostało 134 tys. zł (październik 2023).</p>
                             </div>
                         </div>
@@ -91,7 +93,9 @@
                             <input type="checkbox" id="item4" class="accordion-toggle">
                             <label for="item4" class="accordion-title">Czas trwania remontu</label>
                             <div class="accordion-content">
-                                <p>Dotacje rządzą się swoimi prawami. Dla przykładu kiedy w kwietniu otrzymamy informację o otrzymanej dotacji, nie oznacza to natychmiastowego przelewu na konto parafialne. Jest to długoterminowa procedura, bardzo wiele dokumentów do wypełnienia, podpisanie stosownych umów, aneksów, złożenie ew. wyjaśnień oraz, co bardzo ważne, prawidłowe rozliczenie dotacji. Trwa to wiele tygodni. Wymaga to współpracy parafii, wykonawcy, a także konserwatora zabytków i aż trzech zewnętrznych podmiotów finansujących remont. Umowy oraz przelewy pieniędzy miały swój finał dopiero we wrześniu 2023, a stosowne aneksy dały nam możliwość rozliczenia całego projektu do 31 października 2023.​</p>
+                                <p>Dotacje rządzą się swoimi prawami. Dla przykładu - kiedy w kwietniu otrzymamy informację o otrzymanej dotacji, nie oznacza to natychmiastowego przelewu na konto parafialne. Jest to długoterminowa procedura.</p>
+                                <p class="additional-padding">Jest bardzo wiele dokumentów do wypełnienia, podpisanie stosownych umów, aneksów, złożenie ew. wyjaśnień oraz, co bardzo ważne, prawidłowe rozliczenie dotacji. Trwa to wiele tygodni. Wymaga to współpracy parafii, wykonawcy, a także konserwatora zabytków i aż trzech zewnętrznych podmiotów finansujących remont. </p>
+                                <p>Umowy oraz przelewy pieniędzy miały swój finał dopiero we wrześniu 2023, a stosowne aneksy dały nam możliwość rozliczenia całego projektu do 31 października 2023.​</p>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -110,16 +114,52 @@
                         </div>
                     </div>
                     <div class="bank-account">
-                        <p>Zostały złożone wnioski o dotację do Ministerstwa Kultury i Dziedzictwa Narodowego oraz Gminy Osiecznica. Spodziewane kwoty z dotacji w istotny sposób miały zasilić budżet remontowy, jednak nie wystarczyłyby na pokrycie wszystkich kosztów. Dlatego Rada Parafialna zwraca się z prośbą do mieszkańców Parowej, Ołoboku, Poświętnego i Bronowca o datki na ten cel. Dowolne kwoty można wpłacać bezpośrednio na konto parafii z dopiskiem “remont wieży”:</p>
+                        <p>Zostały złożone wnioski o dotację do Ministerstwa Kultury i Dziedzictwa Narodowego oraz Gminy Osiecznica. Spodziewane kwoty z dotacji w istotny sposób miały zasilić budżet remontowy, jednak nie wystarczyłyby na pokrycie wszystkich kosztów.</p>
+                        <p>Dlatego Rada Parafialna zwraca się z prośbą do mieszkańców Parowej, Ołoboku, Poświętnego i Bronowca o datki na ten cel. Dowolne kwoty można wpłacać bezpośrednio na konto parafii z dopiskiem “remont wieży”:</p>
                         <div class="bank-details">
-                            <p>KONTO BANKOWE PARAFII ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</p>
-                            <p>SANTANDER BANK POLSKA S.A.</p>
-                            <p>Oddział w Bolesławcu</p>
+                            <p class="padding-bottom">KONTO BANKOWE PARAFII ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</p>
+                            <p>Santander Bank Polska S.A.</p>
+                            <p class="padding-bottom">Oddział w Bolesławcu</p>
                             <p>57 1090 2590 0000 0001 3393 5601</p>
+                            <button class="bank-button">Kopiuj numer</button>
                         </div>
+                    </div>
+                    <div class="gallery">
+                        <?php
+                        get_template_part('parts/gallery', 'renovation');
+                        ?>
                     </div>
                 </div>
     </div>
+    </section>
+    <section class="contact">
+        <h2>Kontakt</h2>
+        <div class="container">
+            <p class="center">Rzymskokatolicka parafia pod wezwaniem św. Antoniego z Padwy w Parowej</p>
+            <div class="contact-details">
+                <div class="contact-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/person.svg" alt="ikona osoby" height="auto" width="22">
+                    <p>Proboszcz: ks. Edward Rychel</p>
+                </div>
+                <div class="contact-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/location.svg" alt="ikona pinu" height="auto" width="22">
+                    <p>Parowa 106, 59-724 Parowa</p>
+                </div>
+                <div class="contact-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/phone.svg" alt="ikona telefonu" height="auto" width="22">
+                    <p>(+48) 75 732 1886</p>
+                </div>
+                <div class="contact-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/mail.svg" alt="ikona poczty" height="auto" width="22">
+                    <p>parafiaparowa@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/fb.svg" alt="ikona facebook" height="auto" width="22">
+                    <p>Odwiedź nas na Facebook</p>
+                </div>
+            </div>
+            <p class="alert">W sprawach pilnych prosimy o kontakt telefoniczny lub wizytę po mszy świętej wieczornej lub na plebanii</p>
+        </div>
     </section>
     </main>
 </div>
