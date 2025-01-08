@@ -826,6 +826,10 @@ img {
 	.home .home-blog .container {
 		flex-direction: row;
 	}
+
+	.home .home-blog .container .latest-news {
+		height: 150px;
+	}
 }
 
 /* MASSES */
