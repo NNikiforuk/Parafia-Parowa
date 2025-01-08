@@ -390,7 +390,6 @@ template {
 
 :root {
 	--wpdevs-big-padding: 60px 0;
-	--wpdevs-mobile-padding: 20px 0;
 	--wpdevs-light-padding: 0 25px;
 
 	--white: #f8f5f3;
@@ -1031,7 +1030,7 @@ footer .container a {
 	font-size: 14px;
 	font-weight: bold;
 	text-decoration: none;
-	transition: .6s;
+	transition: 0.6s;
 }
 
 .news-list p a:hover {
@@ -1046,10 +1045,105 @@ footer .container a {
 	.news-list p a {
 		font-size: 18px;
 	}
+
+	.news-list h2 {
+		margin-top: 2em;
+	}
 }
 
 /* SINGLE NEWS SUBPAGE */
+.single-post {
+	min-height: calc(100vh - 140px);
+	background-color: var(--beige);
+	color: var(--brown);
+}
 
+.single-post header h2 {
+	font-size: 18px;
+	text-align: left;
+	margin: 3em auto 1em auto;
+	padding: 1.5em;
+	max-width: 500px;
+}
+
+.single-post article {
+	padding: 0 1.5em 1.5em 1.5em;
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.single-post article ul {
+	padding-left: 1em;
+}
+
+.single-post article ul li {
+	padding: 0.5em 0;
+}
+
+.single-post article ul li a {
+	text-decoration: none;
+	color: var(--brown);
+	transition: .6s;
+}
+
+.single-post article ul li a:hover {
+	color: var(--red);
+}
+
+.single-post .all-news {
+	width: 100%;
+	text-align: right;
+	display: block;
+	padding: 1.5em;
+}
+
+.single-post .all-news a {
+	color: var(--brown);
+	font-size: 14px;
+	transition: 0.6s;
+}
+
+.single-post article .content p {
+	padding: 0.5em 0;
+}
+
+@media (min-width: 600px) {
+	.single-post header h2 {
+		font-size: 22px;
+		margin: 5em auto 2em auto;
+	}
+
+	.single-post .all-news {
+		margin-top: 4em;
+	}
+
+	.single-post header h2,
+	.single-post article {
+		max-width: 600px;
+		padding: var(--wpdevs-light-padding);
+	}
+
+	.single-post .all-news {
+		max-width: 600px;
+		padding: 1.5em 25px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.single-post header h2 {
+		text-align: center;
+	}
+
+	.single-post header h2,
+	.single-post article,
+	.single-post .all-news {
+		max-width: 900px;
+	}
+
+	.single-post .all-news a:hover {
+		color: var(--red);
+	}
+}
 
 @media (max-width: 768px) {
 	.home-blog .container,
