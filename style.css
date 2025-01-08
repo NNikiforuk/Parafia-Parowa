@@ -709,6 +709,7 @@ img {
 	background-position: center center;
 	color: var(--white);
 	text-align: center;
+	background-image: url("http://localhost:8000/wp-content/uploads/2025/01/panorama-mobile-scaled.webp");
 }
 
 .hero .overlay {
@@ -737,6 +738,10 @@ img {
 }
 
 @media (min-width: 1024px) {
+	.hero {
+		background-image: url("http://localhost:8000/wp-content/uploads/2025/01/panorama-scaled.webp");
+	}
+
 	.hero .overlay {
 		padding-left: 10rem;
 	}

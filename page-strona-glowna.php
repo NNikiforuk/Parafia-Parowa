@@ -2,7 +2,7 @@
 <div id="content" class="site-content">
     <div id="primary" class="content-area">
         <main id="main" class="site-main">
-            <section class="hero" style="background-image: url('http://localhost:8000/wp-content/uploads/2025/01/panorama-scaled.webp')">
+            <section class="hero">
                 <div class="overlay" style="min-height: 800px">
                     <div class="hero-items">
                         <h1>RZYMSKOKATOLICKA PARAFIA ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</h1>
