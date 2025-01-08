@@ -6,9 +6,8 @@
 </h4>
   <br>
   <h4 align="center">
-   <img src="https://github.com/user-attachments/assets/34fd78dd-0dae-4f20-9c1d-4c12104c2631" width="350" h="auto"/>
+   <img src="https://github.com/user-attachments/assets/51e33d5f-16f0-4804-91c6-9784fe4a9f1b" width="350" h="auto"/>
     </h4>
-
 </h1>
 
 
