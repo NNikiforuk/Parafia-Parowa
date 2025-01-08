@@ -61,7 +61,7 @@
     <section class="renovation" id="remont">
         <h2>Remont wieży kościelnej</h2>
         <div class="container">
-            <div class="accordion">
+            <div class="accordion slidein">
                 <div class="accordion-item">
                     <input type="checkbox" id="item1" class="accordion-toggle">
                     <label for="item1" class="accordion-title">2019</label>
@@ -118,7 +118,7 @@
             <div class="bank-account">
                 <p>Zostały złożone wnioski o dotację do Ministerstwa Kultury i Dziedzictwa Narodowego oraz Gminy Osiecznica. Spodziewane kwoty z dotacji w istotny sposób miały zasilić budżet remontowy, jednak nie wystarczyłyby na pokrycie wszystkich kosztów.</p>
                 <p>Dlatego Rada Parafialna zwraca się z prośbą do mieszkańców Parowej, Ołoboku, Poświętnego i Bronowca o datki na ten cel. Dowolne kwoty można wpłacać bezpośrednio na konto parafii z dopiskiem “remont wieży”:</p>
-                <div class="bank-details">
+                <div class="bank-details slidein">
                     <p class="padding-bottom">KONTO BANKOWE PARAFII ŚW. ANTONIEGO PADEWSKIEGO W PAROWEJ</p>
                     <p>Santander Bank Polska S.A.</p>
                     <p class="padding-bottom">Oddział w Bolesławcu</p>
@@ -160,7 +160,7 @@
                 <p><a href="https://www.facebook.com/p/Parafia-%C5%9Bw-Antoniego-z-Padwy-w-Parowej-100066737314714" target="_blank">Odwiedź nas na Facebook</a></p>
             </div>
         </div>
-        <p class="alert">W sprawach pilnych prosimy o kontakt telefoniczny lub wizytę po mszy świętej wieczornej lub na plebanii</p>
+        <p class="alert slidein">W sprawach pilnych prosimy o kontakt telefoniczny lub wizytę po mszy świętej wieczornej lub na plebanii</p>
     </div>
 </section>
 </main>

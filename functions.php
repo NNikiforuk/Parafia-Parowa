@@ -6,6 +6,7 @@ function wpdevs_load_scripts()
 
     wp_enqueue_script('dropdown', get_template_directory_uri() . '/js/dropdown.js', array(), '1.0', true);
     wp_enqueue_script('copyingNumber', get_template_directory_uri() . '/js/copyingNumber.js', array(), '1.0', true);
+    wp_enqueue_script('slidingAnimation', get_template_directory_uri() . '/js/slidingAnimation.js', array(), '1.0', true);
 }
 add_action('wp_enqueue_scripts', 'wpdevs_load_scripts');
 
