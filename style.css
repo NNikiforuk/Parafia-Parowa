@@ -70,6 +70,7 @@ html {
 	line-height: 1.15; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 	scroll-behavior: smooth;
+	height: 100%;
 }
 
 /* Sections
@@ -1014,6 +1015,7 @@ footer {
 	background: var(--brown);
 	padding: 30px 0;
 	color: var(--beige);
+	height: 120px;
 }
 footer .container {
 	text-align: center;
@@ -1029,7 +1031,7 @@ footer .container a {
 	background-color: var(--beige);
 	padding: var(--wpdevs-big-padding);
 	color: var(--brown);
-	min-height: calc(100vh - 140px);
+	min-height: calc(100vh - 120px);
 }
 
 .news-list p {
@@ -1051,10 +1053,6 @@ footer .container a {
 }
 
 @media (min-width: 1024px) {
-	.news-list {
-		min-height: calc(100vh - 130px);
-	}
-
 	.news-list p a {
 		font-size: 18px;
 	}
@@ -1066,9 +1064,9 @@ footer .container a {
 
 /* SINGLE NEWS SUBPAGE */
 .single-post {
-	min-height: calc(100vh - 140px);
 	background-color: var(--beige);
 	color: var(--brown);
+	min-height: calc(100vh - 120px);
 }
 
 .single-post header h2 {
@@ -1096,7 +1094,7 @@ footer .container a {
 .single-post article ul li a {
 	text-decoration: none;
 	color: var(--brown);
-	transition: .6s;
+	transition: 0.6s;
 }
 
 .single-post article ul li a:hover {
