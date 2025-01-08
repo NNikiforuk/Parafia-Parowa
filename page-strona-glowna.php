@@ -61,7 +61,7 @@
     <section class="renovation" id="remont">
         <h2>Remont wieży kościelnej</h2>
         <div class="container">
-            <div class="accordion slidein">
+            <div class="accordion">
                 <div class="accordion-item">
                     <input type="checkbox" id="item1" class="accordion-toggle">
                     <label for="item1" class="accordion-title">2019</label>
