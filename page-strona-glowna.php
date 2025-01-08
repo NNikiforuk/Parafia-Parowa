@@ -137,7 +137,7 @@
 <section class="contact" id="kontakt">
     <h2>Kontakt</h2>
     <div class="container">
-        <p>Rzymskokatolicka parafia pod wezwaniem św. Antoniego z Padwy w Parowej</p>
+        <p class="center">Rzymskokatolicka parafia pod wezwaniem św. Antoniego z Padwy w Parowej</p>
         <div class="contact-details">
             <div class="contact-item">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/person.svg" alt="ikona osoby" height="auto" width="22">

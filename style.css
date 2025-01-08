@@ -2,7 +2,6 @@
 Theme Name: web-devs
 */
 
-
 @font-face {
 	font-family: "abril";
 	src: url("./assets/fonts/AbrilFatface-Regular.woff") format("woff");
@@ -983,14 +982,21 @@ img {
 	color: var(--brown);
 }
 
+.home .contact .center {
+	text-align: center;
+}
+
 .home .contact .contact-details {
 	padding-top: 2em;
+	display: grid;
+	justify-content: center;
 }
 .home .contact .contact-details .contact-item {
-	display: flex;
-	align-items: center;
 	padding: 5px 0;
-	gap: 5px;
+	display: grid;
+	grid-template-columns: 30px 1fr;
+	align-items: center;
+	gap: 10px;
 }
 
 .home .contact .contact-details .contact-item a {
